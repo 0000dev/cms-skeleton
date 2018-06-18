@@ -1,0 +1,442 @@
+body{
+    background: #7de9e8;
+    font-family: "Open Sans";
+    color: #646464;
+    margin: 10px;
+    font-size: 15px;
+}
+a {
+    color: #28c8c6;
+    cursor: pointer;
+    line-height: inherit;
+    text-decoration: none;
+}
+a:hover, a:focus{
+    color: #ce50b2;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Passion One';
+    letter-spacing: 0.3px;
+}
+h3{font-size: 30px;}
+h1{font-size: 36px;}
+.highlightblue{
+    background-color: aliceblue;
+    padding: 5px;
+}
+.zero{
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 10px #28c8c6;
+    margin: 15px auto;
+    max-width: 1020px;
+    width: 100%;
+    border-radius: 5px;
+}
+.zero-header{
+    border-radius: 5px 5px 0 0;
+    background: #4a4a4a;
+    padding: 20px;
+}
+.zero-logo{
+    color: #28c8c6;
+    font-family: "Passion One";
+    font-size: 28px;
+    margin: 0;
+}
+.zero-header a{
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.zero-header a:hover{
+    color: #28c8c6;
+}
+.zero-search{
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #28c8c6;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+}
+.zero-right{
+    text-align: right
+}
+.zero-contents{
+    background: #f6f6f6;
+    padding: 20px !important;
+/*    padding-top: 20px;
+    padding-bottom: 20px;*/
+    min-height: 600px;
+}
+.zero-side{
+    padding: 35px 20px 20px !important;
+/*    padding-top: 20px;
+    padding-bottom: 20px;*/
+}
+.zero-footer{
+    background: #4a4a4a none repeat scroll 0 0;
+    border-radius: 0 0 5px 5px;
+    color: #ccc;
+    font-size: 14px;
+    padding: 20px;
+}
+.zero-block{
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.zero-side-block{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 30px;
+}
+.side-head{
+    color: #aaa;
+}
+.zero-links a{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+.zero-links a img{
+    height: 12px;
+    margin-left: 15px;
+}
+.zero-links a:hover img{
+    margin-left: 25px;
+}
+.zero-alpha a {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 10%;
+    font-weight: bold;
+}
+.zero-alpha a:hover{
+    background: #f2f2f2;
+}
+.zero-alpha:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.button{
+    border-radius: 3px;
+}
+.button.primary{
+    background-color: #28c8c6;
+}
+.button.primary:hover{
+    background-color: #ce50b2;
+}
+.zero-cats a{
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    font-family: "Passion One";
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    word-break: break-all;
+    text-transform: capitalize;
+}
+.zero-cats ul{
+    margin: 0;padding: 0;
+    font-size: 14px;
+}
+.zero-cats ul li{
+    list-style: none;
+}
+.zero-cats ul li b {
+    border-right: 1px solid #e5e5e5;
+    display: inline-block;
+    margin-right: 15px;
+    width: 62px;
+    padding: 8px 0;
+}
+.zero-paging{
+    margin: 20px 0;
+}
+.zero-paging a{
+    display: inline-block;
+    width: 30px;
+    color: #ce50b2;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.zero-paging a:hover{
+    background: #ccc;
+}
+.zero-dom{
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e5e5e5;
+}
+.zero-dom-thumb {
+    border: 2px solid #ccc;
+    min-height: 130px;
+    padding: 5px;
+    text-align: center;
+}
+.zero-dom-thumb img{
+    width: 100%;
+    height: auto
+}
+.zero-dom-thumb p{
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.zero-fancy-block a{
+    color: #4a4a4a;
+    font-family: "Passion One";
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    border: 2px solid #ce50b2;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: block;
+    background: #f5f5f5;
+}
+.zero-fancy-block a span{
+    color: #646464;
+    font-family: "Open Sans";
+    letter-spacing: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.zero-fancy-block a:hover{
+    background: #c3eeed;
+}
+.zero-dotted{
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+}
+.purplehdea{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce50b2;
+    font-family: "Open Sans";
+}
+.zero-separator{
+    height: 1px;
+    background: #e5e5e5;
+    display: block;
+    margin: 15px 0;
+    clear: both;
+}
+.useful-tool{
+    background: #ce50b2 none repeat scroll 0 0;
+    border-radius: 0 0 2px 2px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -20px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 100px;
+}
+.zero-toolwrapper pre{
+    background: #3bcdca none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+}
+.useful-tool-2{
+    background: #ce50b2 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 100px;
+}
+.alert{
+    padding: 15px;
+    font-size: 14px;
+}
+.alert-warning{
+    border: 2px solid #dca15b;
+}
+.alert-success{
+    border: 2px solid #5bdc9e;
+}
+table a{
+    font-weight: bold;
+}
+.pretxt br{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.imagescontainer{
+  position: relative;
+    min-height:260px;
+  margin-left: 20%;
+  width: 332px;
+    margin:0 auto;
+
+} 
+
+.cell_imagescontainer{
+  position: relative;
+    min-height:500px;
+  margin-left: 20%;
+  width: 261px;
+    margin:0 auto;
+}
+
+.macbgimg{
+  height: 278px;
+  position: absolute;
+}
+
+.macfrontimg
+{
+  max-width: 320px;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    clip: rect(0px,314px,187px,0px);
+}
+
+.cellphonebgimg{
+  height: 505px;
+  position: absolute;
+}
+
+.cellphonefrontimg {
+    max-width: 222px;
+    position: absolute;
+    left: 10px;
+    top: 47px;
+    clip: rect(5px,227px,430px,0px);
+}
+.screnshot{
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 0 #ddd;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.comingsoon{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 0 #ddd;
+    display: table-cell;
+    height: 250px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 300px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.collapse {
+    display: none;
+}
+.collapse.in {
+    display: block;
+}
+.accordion-title::before {
+    content: "+";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -0.6rem;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+}
+.accordion-title{
+    font-size: 16px;
+    font-weight: bold;
+    /*font-family: 'Passion One';*/
+    color: #000;
+}
+.rawins {
+    background: #3bcdca none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    color: #fff;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 0 #2baca9;
+    padding: 40px 15px;
+     font-size: 15px;
+}
+.rawins p span{
+    border-bottom: 1px dotted #2baca9
+}
+.rawins p b{
+    text-transform: capitalize;
+}
+.whoraw_tbl{
+    font-size: 13px;
+}
+.whoraw_tbl tr td:first-child{
+    text-transform: capitalize;
+}
+.whoraw_list{
+    padding: 0;margin: 0;
+}
+.whoraw_list li {
+    border-bottom: 1px solid #eee;
+    display: block;
+    float: left;
+    font-size: 13px;
+    list-style: outside none none;
+    overflow: hidden;
+    padding: 8px 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 65%;
+}
+.whoraw_list li:nth-child(odd){
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 35%;
+}
+.whoraw_list li:nth-child(3n+0) {
+    background: #f1f1f1;
+}
+.whoraw_list li:nth-child(4n+0) {
+    background: #f1f1f1;
+}
+
+
+
+
+@media (max-width: 767px) {
+    
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    
+}
+@media (min-width: 1200px) {
+    
+}

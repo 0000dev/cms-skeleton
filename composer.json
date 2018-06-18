@@ -1,0 +1,31 @@
+{	
+
+	"name":"MyApp",
+	"repositories": [{
+		"type": "package",
+		"package": {
+			"name": "0000dev/my",
+			"version": "0.0.2",
+			"source": {
+				"type" : "git",
+				"url" : "https://github.com/0000dev/my.git",
+				"reference" : "0.0.2"
+			},
+			"autoload": {
+                "classmap": ["."]
+            },
+			"dist": {
+				"url": "https://github.com/0000dev/my/archive/master.zip",
+				"type": "zip"
+			}
+		}
+	}],
+	"require" :
+	{
+		"php": ">=5.3",
+		"0000dev/my" : "*"
+	},
+	"autoload": {
+        "classmap": ["src/controller.php","src/model.php"]
+    }
+}
